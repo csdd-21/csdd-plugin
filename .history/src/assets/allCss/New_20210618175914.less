@@ -1,0 +1,42 @@
+@color: rgb(128, 130, 128);
+
+.new {
+    // background-color: pink;
+    height: 600px;
+    width: 900px;
+    margin: auto;
+    margin-top: 60px;
+
+    .el-form-item:last-child {
+        text-align: right;
+    }
+
+    /deep/ .el-input__inner:hover,
+    /deep/ .el-input__inner:focus {
+        border-color: @color;
+    }
+
+    .el-select-dropdown__item {
+        color: @color;
+
+        &:hover {
+            font-weight: 700;
+            background-color: @color;
+        }
+
+        &.selected {
+            color: red;
+            font-weight: 700;
+        }
+    }
+
+    /deep/ .el-textarea__inner {
+        height: 330px;
+
+        &:hover,
+        &:focus {
+            border-color: @color;
+        }
+    }
+
+}
