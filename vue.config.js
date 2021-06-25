@@ -1,11 +1,10 @@
 var webpack = require('webpack');
 const mdPlugin = require('vite-plugin-markdown')
 module.exports = {
-  // baseUrl: '/',
   devServer: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8100',
+        target: 'http://127.0.0.1:9003',
         changeOrigin: true,
         ws: true,
         pathRewrite: {

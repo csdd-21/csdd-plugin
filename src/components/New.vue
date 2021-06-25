@@ -44,7 +44,7 @@ export default {
       }
     };
     return {
-      form: { imgPath: "", title: "",  url: "",tag: "animation", desc: "", author: "" },
+      form: { imgPath: "", title: "",  url: "",tag: "", desc: "", author: "" },
       rules: {
         imgPath: [{ validator: isValidate, trigger: ["blur", "change"] }],
         title: [{ validator: isValidate }],

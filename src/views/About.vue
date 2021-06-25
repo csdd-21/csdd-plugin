@@ -30,7 +30,7 @@ export default {
   props: {},
   data() {
     return {
-      activeNames: ["2"],
+      activeNames: ["1"],
       postAbout: "",
       postOther: "",
     };
@@ -45,14 +45,14 @@ export default {
   created() {},
   mounted() {
     this.axios
-      .get("/about/about.md")
+      .get("about/about.md")
       .then((res) => {
         this.postAbout = new MarkdownIt({ html: true }).render(res.data);
       })
       .catch(function (err) {})
       .then(function () {});
     this.axios
-      .get("/about/other.md")
+      .get("about/other.md")
       .then((res) => {
         this.postOther = new MarkdownIt({ html: true }).render(res.data);
       })

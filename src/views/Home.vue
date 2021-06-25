@@ -8,7 +8,7 @@
         <div class="info">
           <b>{{ i.title }}</b>
           <Tags :tag="[i.tag]"></Tags>
-          <span class="desc"> {{ i.abstracts }}</span>
+          <span class="desc"> {{ i.desc }}</span>
           <el-button class="one"><a :href="i.url" target="__blank">Website</a></el-button>
         </div>
       </div>

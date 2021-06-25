@@ -22,7 +22,7 @@ app.post("/tags", function (req, res) {
             console.log('tags err ---', err, 'tags datas ---', tags);
             res.json({ tags: tags })
         }
-    })
+    }) 
 })
 
 app.post("/plugins", function (req, res) {
