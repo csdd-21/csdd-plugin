@@ -84,11 +84,17 @@ nodemon index.js
 ## 功能演示
 
 - **pc端、移动端页面展示**
+- 
 ![1](README.assets/1.gif)
+
 - **查询、重置、选择标签**
+- 
 ![2](README.assets/2.gif)
+
 - **发布新文章**
+- 
 ![3](README.assets/3.gif)
+
 ## 后续功能
 
 - [ ] 线上服务器部署
