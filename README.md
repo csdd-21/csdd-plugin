@@ -13,9 +13,9 @@
 ```
 # csdd-plugin根路径
 npm i 
-npm run dev
+npm run serve
 # server文件夹（记得先启用mongodb）
-node index.js
+nodemon index.js
 ```
 
 ## 前端技术栈
