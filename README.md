@@ -93,7 +93,7 @@ node index.js
 
 - **发布新文章**
 
-
+![3](README.assets/3.gif)
 
 ## 后续功能
 
