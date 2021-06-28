@@ -4,7 +4,7 @@
       <img src="../../public/about.jpg" alt="about.jpg" />
       <div class="contact">
         <a href="https://github.com/csdd-21" target="_blank"><i class="iconfont icon-github"></i></a>
-        <a href="https://github.com/csdd-21/csdd-blog" target="_blank"><i class="iconfont icon-blog"></i></a>
+        <a href="http://localhost:8080" target="_blank"><i class="iconfont icon-blog"></i></a>
       </div>
     </div>
     <div class="col-xs-12 col-md-4"></div>
