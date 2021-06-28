@@ -93,7 +93,7 @@ nodemon index.js
 
 - **pc端、移动端页面展示**
 
-![1](README.assets/1.gif)
+![11](README.assets/1.gif)
 
 - **查询、重置、选择标签**
 
