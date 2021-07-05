@@ -1,0 +1,99 @@
+@color: rgb(128, 130, 128);
+@bgColor: rgb(216, 234, 217);
+
+.new {
+    // background-color: pink;
+    height: 600px;
+    width: 900px;
+    margin: auto;
+    margin-top: 60px;
+
+    .el-form-item {
+        &:first-child {
+            margin-top: -40px;
+        }
+
+        &:nth-child(3) {
+            .el-input {
+                width: 742px;
+            }
+
+            .el-button {
+                height: 38px;
+                min-height: 38px;
+                margin-left: 20px;
+                font-size: 13px;
+                padding: 6px 15px;
+                a{
+                    color:inherit;
+                }
+            }
+        }
+
+
+        &:last-child {
+            text-align: right;
+
+            .el-input {
+                width: 92px;
+            }
+
+            .el-button {
+                margin-left: 20px;
+                margin-bottom: 20px;
+            }
+        }
+
+    }
+
+    /deep/ .el-input__inner:hover,
+    /deep/ .el-input__inner:focus {
+        border-color: @color;
+    }
+
+    .el-button--primary {
+        background-color: fade(@bgColor,50%);
+        border-color: fade(@color, 30%);
+        color: @color;
+
+        &:hover {
+            background-color: fade(@bgColor, 60%);
+            border-color: fade(@color, 30%);
+            font-weight: 800;
+        }
+    }
+
+    /deep/ .el-upload--picture-card {
+        background-color: rgb(255, 255, 255);
+    }
+
+    /deep/ .el-upload--picture-card:hover,
+    .el-upload:focus {
+        border-color: @color;
+
+    }
+
+    /deep/ .el-textarea__inner {
+        height: 280px;
+
+        &:hover,
+        &:focus {
+            border-color: @color;
+        }
+    }
+}
+
+.el-select-dropdown__item {
+    color: @color;
+
+    &:hover,
+    &:focus {
+        font-weight: 700;
+        background-color: fade(@bgColor, 20%);
+    }
+
+    &.selected {
+        font-weight: 700;
+        background-color: fade(@bgColor, 40%);
+    }
+}
