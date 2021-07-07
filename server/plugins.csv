@@ -1,0 +1,9 @@
+auth,author,desc,imgPath,publish,tag,title,url
+admin,csdd,几乎是大部分vue开发者首个以及最经常接触的UI组件框架吧，目前Element UI有基于 Vue 2.0也有基于Vue 3.0的版本。平时遇到需要用的组件即拷即用，虽然有时用到该组件的属性或方法只有几个而已，但也不妨花点时间阅读下官网列举的其它属性和方法，毕竟多了解一点总是有好处的嘛~,imgs/Element 基于 Vue 的桌面端组件UI库.png,1,UI框架,Element 基于 Vue 的桌面端组件UI库,https://element.eleme.cn/#/zh-CN
+admin,csdd,如果想要开发移动端、或者web兼容移动端，element-ui并不是最好的选择，它对移动的适配并不是很好（个人感受），就如同我自己的博客和这个项目都是用Bootstrap来做布局，这样一套代码就也可以兼容pc和移动端了。如果你首次使用，可以花2、3个小时认真阅读一遍官网，阅读后再去开发，效率就高多啦',imgs/Bootstrap 用于开发响应式布局、移动设备优先的 UI组件库.png,1,UI框架,Bootstrap 用于响应式布局的 UI 组件库,https://v3.bootcss.com/
+admin,csdd,支持在线演示、修改参数、查看源码的简洁、优雅的块级元素加载动画库。几乎用到所有的css3特性，如缩放、翻转等，以及在线修改参数，如修改参数duration、steps、delay等等,imgs/Animista 块级元素加载动画.png,1,动画库,Animista 块级元素加载动画,https://animista.net/
+admin,csdd,JavaScript函数库最出名的就是Lodash吧，本质上就是对一些常用的JavaScript函数进行封装，使用时直接_.xx调用即可，适当地辅助使用可以提高不少开发效率。虽然我暂时好像没用，每次写js代码逻辑还是一步步自己手写去实现。不用可以不用，但是起码的知道哈,imgs/Lodash JavaScript 函数库.png,1,JavaScript,Lodash JavaScript 函数库,https://lodash.com/
+admin,csdd,开源、免费、稳定、使用简单、功能强大，纯javascript打造的滑动特效插件，面向手机、平板电脑等移动终端，能实现触屏焦点图、触屏Tab切换、触屏轮播图切换等常用效果，支持3d、添加动画等等,imgs/swiper 开源免费、强大的swiper插件.png,1,轮播,swiper 开源免费、强大的swiper插件,https://www.swiper.com.cn/
+admin,csdd,无比强大的chrome浏览器插件，拥有了一个它就等于拥有了无数个它它它。可以直接搜索适用于当前页面的所有脚本，并安装使用。比如如何无广优雅的看csdn、如何用快捷键关闭b站弹幕等,imgs/Tampermonkey 搜索、获取、安装、编辑脚本.png,1,Chrome,Tampermonkey 搜索、获取、安装、编辑脚本,https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
+admin,csdd,Vant 官方提供了 Vue 2 版本、Vue 3 版本和微信小程序版本，覆盖了绝大部分场景所需要的组件，有完善的中英文文档和示例,imgs/Vant 轻量、可靠的移动端 Vue 组件库.png,1,UI框架,Vant 轻量、可靠的移动端 Vue 组件库,https://vant-contrib.gitee.io/vant/#/zh-CN/
+visitor,no name,防守打法,imgs/fsdfs.png,-1,访客1,fsdfs,dfsdf
