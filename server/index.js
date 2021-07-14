@@ -7,8 +7,6 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(api);
-express.static('./imgs')
-app.use(express.static('./imgs'))
 app.use( '/imgs',express.static('imgs'))
 
 app.listen('9003', function () {

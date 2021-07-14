@@ -19,6 +19,7 @@
 npm i 
 npm run serve
 # server文件夹（记得先启用mongodb）
+npm i 
 nodemon index.js
 ```
 
